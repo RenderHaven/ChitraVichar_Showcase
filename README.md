@@ -11,19 +11,19 @@ Check out the live demo here: [ChitraVichar Live](https://chitravichar.vercel.ap
 # Table of Contents
 - [About ChitraVichar](#about-chitravichar)
 - [Showcase](#showcase)
-  * [HomePage](#Home_Page)
-  * [Products_List_Page](#Products_List_Page)
-  * [Product_Details_Page](#Product_Details_Page)
-  * [Cart_Page](#Cart_Page)
-  * [Order_Page](#Order_Page)
-  * [Payment_Confirmation_Page](#Payment_Confirmation_Page)
-  * [Payment_successfull_Page](#Payment_successfull_Page)
-  * [My_Profile](#My_Profile)
+  * [Home Page](#Home_Page)
+  * [Products List Page](#Products_List_Page)
+  * [Product Details Page](#Product_Details_Page)
+  * [Cart Page](#Cart_Page)
+  * [Order Page](#Order_Page)
+  * [Payment Confirmation Page](#Payment_Confirmation_Page)
+  * [Payment successfull Page](#Payment_successfull_Page)
+  * [My Profile](#My_Profile)
     * [DashBoard](#DashBoard_Page)
-    * [Address_Page](#Address_Page)
-    * [MyOrders_Page](#MyOrders_Page)
-  * [Login_Page](#Login_Page)
-  * [Register_Page](#Register_Page)
+    * [Address Page](#Address_Page)
+    * [MyOrders Page](#MyOrders_Page)
+  * [Login Page](#Login_Page)
+  * [Register Page](#Register_Page)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
@@ -37,32 +37,32 @@ ChitraVichar is a fully API-driven e-commerce platform that enables users to bro
 
 ## Home_Page
 <p align="center">
-  <img src="assets/home-pc.png" width="76%">
-  <img src="assets/home.jpg" width="20%">
+  <img src="assets/home-pc.png" width="77%">
+  <img src="assets/home.jpg" width="19%">
 </p>
 
 ## Products_List_Page
 <p align="center">
-  <img src="assets/Products-pc.png" width="76%">
-  <img src="assets/Products.jpg" width="20%">
+  <img src="assets/Products-pc.png" width="77%">
+  <img src="assets/Products.jpg" width="19%">
 </p>
 
 ## Products_Details_Page
 <p align="center">
-  <img src="assets/ProductPage-pc.png" width="76%">
-  <img src="assets/ProductPage.jpg" width="20%">
+  <img src="assets/ProductPage-pc.png" width="77%">
+  <img src="assets/ProductPage.jpg" width="19%">
 </p>
 
 ## Cart_Page
 <p align="center">
-  <img src="assets/Cart-pc.png" width="76%">
-  <img src="assets/Cart.jpg" width="20%">
+  <img src="assets/Cart-pc.png" width="77%">
+  <img src="assets/Cart.jpg" width="19%">
 </p>
 
 ## Order_Page
 <p align="center">
-  <img src="assets/Order-pc.png" width="76%">
-  <img src="assets/Order.jpg" width="20%">
+  <img src="assets/Order-pc.png" width="77%">
+  <img src="assets/Order.jpg" width="19%">
 </p>
 
 ## My_Profile
@@ -84,8 +84,8 @@ ChitraVichar is a fully API-driven e-commerce platform that enables users to bro
 
 ## Login_Page
 <p align="center">
-  <img src="assets/Login-pc.png" width="76%">
-  <img src="assets/Order.jpg" width="20%">
+  <img src="assets/Login-pc.png" width="77%">
+  <img src="assets/Order.jpg" width="19%">
 </p>
 
 # Features
@@ -100,7 +100,7 @@ ChitraVichar is a fully API-driven e-commerce platform that enables users to bro
 - **Frontend**: Flutter (Dart)
 - **Backend**: Flask (Python) with PostgreSQL
 - **Payment Gateway**: Razorpay
-- **Hosting**: Vercel (Frontend), Cloud for Backend API
+- **Hosting**: Vercel (Frontend), Render for Backend API
 
 # Installation
 > This project is private and not open-source at the moment.
