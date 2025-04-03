@@ -37,58 +37,55 @@ ChitraVichar is a fully API-driven e-commerce platform that enables users to bro
 
 ## Home_Page
 <p align="center">
-  <img src="assets/home-pc.png" width="80%">
-  <img src="assets/home.jpg" width="20%">
+  <img src="assets/home-pc.png" width="78%">
+  <img src="assets/home.jpg" width="18%">
 </p>
 
 ## Products_List_Page
 <p align="center">
-  <img src="assets/products-pc.png" width="80%">
-  <img src="assets/products.jpg" width="20%">
+  <img src="assets/products-pc.png" width="78%">
+  <img src="assets/products.jpg" width="18%">
 </p>
 
 ## Products_Details_Page
 <p align="center">
-  <img src="assets/ProductPage-pc.png" width="80%">
-  <img src="assets/ProductPage.jpg" width="20%">
+  <img src="assets/ProductPage-pc.png" width="78%">
+  <img src="assets/ProductPage.jpg" width="18%">
 </p>
 
 ## Cart_Page
 <p align="center">
-  <img src="assets/cart-pc.png" width="80%">
-  <img src="assets/cart.jpg" width="20%">
+  <img src="assets/cart-pc.png" width="78%">
+  <img src="assets/cart.jpg" width="18%">
 </p>
 
 ## Order_Page
 <p align="center">
-  <img src="assets/order-pc.png" width="80%">
-  <img src="assets/order.jpg" width="20%">
+  <img src="assets/order-pc.png" width="78%">
+  <img src="assets/order.jpg" width="18%">
 </p>
 
 ## My_Profile
 
 ### DashBoard_Page
 <p align="center">
-  <img src="assets/DashBoard-pc.png" width="80%">
-  <img src="assets/Order-View.png" width="20%">
+  <img src="assets/DashBoard-pc.png" width="100%">
 </p>
 
 ### Address_Page
 <p align="center">
-  <img src="assets/Address-pc.png" width="80%">
-  <img src="assets/Order-View.png" width="20%">
+  <img src="assets/Address-pc.png" width="100%">
 </p>
 
 ### MyOrders_Page
 <p align="center">
-  <img src="assets/MyOrders-pc.png" width="80%">
-  <img src="assets/Order-View.png" width="20%">
+  <img src="assets/MyOrders-pc.png" width="100%">
 </p>
 
 ## Login_Page
 <p align="center">
-  <img src="assets/Login-pc.png" width="80%">
-  <img src="assets/order.jpg" width="20%">
+  <img src="assets/Login-pc.png" width="78%">
+  <img src="assets/order.jpg" width="18%">
 </p>
 
 # Features
