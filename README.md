@@ -37,32 +37,32 @@ ChitraVichar is a fully API-driven e-commerce platform that enables users to bro
 
 ## Home_Page
 <p align="center">
-  <img src="assets/home-pc.png" width="78%">
-  <img src="assets/home.jpg" width="18%">
+  <img src="assets/home-pc.png" width="76%">
+  <img src="assets/home.jpg" width="20%">
 </p>
 
 ## Products_List_Page
 <p align="center">
-  <img src="assets/products-pc.png" width="78%">
-  <img src="assets/products.jpg" width="18%">
+  <img src="assets/Products-pc.png" width="76%">
+  <img src="assets/Products.jpg" width="20%">
 </p>
 
 ## Products_Details_Page
 <p align="center">
-  <img src="assets/ProductPage-pc.png" width="78%">
-  <img src="assets/ProductPage.jpg" width="18%">
+  <img src="assets/ProductPage-pc.png" width="76%">
+  <img src="assets/ProductPage.jpg" width="20%">
 </p>
 
 ## Cart_Page
 <p align="center">
-  <img src="assets/cart-pc.png" width="78%">
-  <img src="assets/cart.jpg" width="18%">
+  <img src="assets/Cart-pc.png" width="76%">
+  <img src="assets/Cart.jpg" width="20%">
 </p>
 
 ## Order_Page
 <p align="center">
-  <img src="assets/order-pc.png" width="78%">
-  <img src="assets/order.jpg" width="18%">
+  <img src="assets/Order-pc.png" width="76%">
+  <img src="assets/Order.jpg" width="20%">
 </p>
 
 ## My_Profile
@@ -84,8 +84,8 @@ ChitraVichar is a fully API-driven e-commerce platform that enables users to bro
 
 ## Login_Page
 <p align="center">
-  <img src="assets/Login-pc.png" width="78%">
-  <img src="assets/order.jpg" width="18%">
+  <img src="assets/Login-pc.png" width="76%">
+  <img src="assets/Order.jpg" width="20%">
 </p>
 
 # Features
