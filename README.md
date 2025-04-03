@@ -1,199 +1,130 @@
-# FullStack_Ecommerce_App
-A FullStack Ecommerce App built with Django and React. 
-<p id ="top" align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20products%20list%20page.png?raw=true" width="100%">
+# ChitraVichar - E-commerce Platform
+
+A fully-featured e-commerce website built with Flutter and Flask.
+
+<p id="top" align="center">
+  <img src="assets/home-pc.png" width="48%">
+  <img src="assets/home-mobile.png" width="48%">
 </p>
 
-Checkout the site in action here <a href="https://condescending-goldstine-79a4ed.netlify.app/">Deployed App</a> (short note below)
+Check out the live demo here: [ChitraVichar Live](https://chitravichar.vercel.app/)
 
-(Note: The website can take upto 30 seconds (hosted on Heroku free tier services), as the project has no clients, its just for learning, please refer the source
-code to run locally).
-
-# Table of contents
-- [About_this_App](#About_this_App)
-- [App_Overview](#App_Overview)
+# Table of Contents
+- [About ChitraVichar](#about-chitravichar)
+- [Showcase](#showcase)
+  * [HomePage](#Home Page)
   * [Products_List_Page](#Products_List_Page)
   * [Product_Details_Page](#Product_Details_Page)
-  * [Product_Edit_Page](#Product_Edit_Page)
-  * [Add_Product_Page](#Add_Product_Page)
-  * [Checkout_Page](#Checkout_Page)
+  * [Cart_Page](#Cart_Page)
+  * [Order_Page](#Order_Page)
   * [Payment_Confirmation_Page](#Payment_Confirmation_Page)
   * [Payment_successfull_Page](#Payment_successfull_Page)
-  * [Orders_Page_For_User](#Orders_Page_For_User)
-  * [Orders_Page_For_Admin](#Orders_Page_For_Admin)
-  * [Address_Settings_Page](#Address_Settings_Page)
-  * [Address_Create_Page](#Address_Create_Page)
-  * [Address_Edit_Page](#Address_Edit_Page)
-  * [Card_Settings_Page](#Card_Settings_Page)
-  * [Card_Update_Page](#Card_Update_Page)
+  * [My_Profile](#DashBoard)
+  * [DashBoard](#DashBoard_Page)
+  * [Address_Page](#Address_Page)
+  * [MyOrders_Page](#MyOrders_Page)
   * [Login_Page](#Login_Page)
   * [Register_Page](#Register_Page)
-  * [User_Account_Page](#User_Account_Page)
-  * [Update_User_Account_Page](#Update_User_Account_Page)
-  * [Delete_User_Account_Page](#Delete_User_Account_Page)
-  * [Other_Functionalities](#Other_Functionalities)
-- [Installation](#Installation)
-  * [Backend](#backend)
-  * [Frontend](#frontend)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Deployment](#deployment)
+- [License](#license)
 
-## About_this_App
-An Ecommerce app where users can purchase products by using their stripe card.  Users are allowed to visit our website and free to look any product details. User needs to create an account on our website to proceed with the payment section. If a user want they can also delete their account anytime (NOTE: With the deletion of a user account all their info like Account details, Address details, Card details will be deleted as well)
+# About ChitraVichar
+ChitraVichar is a fully API-driven e-commerce platform that enables users to browse products, manage their cart, and place orders seamlessly. The backend is built with Flask and PostgreSQL, making it a robust full-stack solution.
 
-The website also provides the flexibility to create a new stripe card if they do not have one, the user can also pay with other user stripe card (if they provide the right email address linked with the card and other card details like Card Number, Exp Month, Exp Year and CVC). The user can also detete their stripe card if they like (Caution: With the deletion of their stripe card their account related to that card will also be deleted as well). 
-
-## App_Overview
-### Products_List_Page
-This page displays all the available products on the website.
+# Showcase
+## Home Page
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20products%20list%20page.png?raw=true" width="100%">
+  <img src="assets/home-pc.png" width="48%">
+  <img src="assets/home.jpg" width="48%">
 </p>
 
-### Product_Details_Page
-This page displays the details of the Product which user has selected from the products list page. Here, the user can see all the info of the Product such as product name, description, in stock or out of stock and pay with stripe button. For Admins, the website provides two more functionalities such as Updating the product and secondly deleting the product.
+## Products List Page
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20product%20details%20page.png?raw=true" width="100%">
+  <img src="assets/products-pc.png" width="48%">
+  <img src="assets/products.jpg" width="48%">
+</p>
+## Products_Details_Page
+<p align="center">
+  <img src="assets/ProductPage-pc.png" width="48%">
+  <img src="assets/ProductPage.jpg" width="48%">
 </p>
 
-### Product_Edit_Page
-Only admins can visit this page, the page handles the editing of the Product in terms of image, name , description, price and in stock status. 
+## Cart_Page
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20product%20edit%20page.png?raw=true" width="100%">
+  <img src="assets/cart-pc.png" width="48%">
+  <img src="assets/cart.jpg" width="48%">
 </p>
 
-### Add_Product_Page
-Only admins can visit this page, the pages handles the creation of product (requires product name,  image, description, price and in stock status.
+## Order_Page
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20add%20product%20page.png?raw=true" width="100%">
+  <img src="assets/order-pc.png" width="48%">
+  <img src="assets/order-pc.png" width="48%">
 </p>
 
-### Checkout_Page
-This page displays the info of the product which user has selected for the purchase. The page Contains the product information and provides pay with stripe card
-option. The user can also save their card for future payments. The user can also select or edit their address from the page.
-
+## DashBoard_Page
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20checkout%20page.png?raw=true" width="100%">
+  <img src="assets/DashBoard-pc.png" width="48%">
+  <img src="assets/Order-View.png" width="48%">
 </p>
 
-### Payment_Confirmation_Page
-The page displays total amount info, the address selected by the user for delivery and the card number used for the purchase. The user can also select a different card and
-address from the same page if something wents wrong.
-
+## Address_Page
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20payment%20confirmation%20page.png?raw=true" width="100%">
+  <img src="assets/Address-pc.png" width="48%">
+  <img src="assets/Order-View.png" width="48%">
 </p>
 
-### Payment_Successfull_Page
-The Page displays the confirmation of the product purchase. Also, provides info like which product is bought and how much amount was paid for it. Go to orders page is
-also provided to see the order details.
-
+## MyOrders_Page
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20payment%20successfull%20page.png?raw=true" width="100%">
+  <img src="assets/MyOrders-pc.png" width="48%">
+  <img src="assets/Order-View.png" width="48%">
+</p>
+## Login_Page
+<p align="center">
+  <img src="assets/Login-pc.png" width="48%">
+  <img src="assets/order.jpg" width="48%">
 </p>
 
-### Orders_Page_For_User
-The page displays the list of all the orders made by user, with the details like their name, card number used, date of purchase, address etc.
+# Features
+- Dynamic product and banner fetching from API
+- User authentication & profile management
+- Shopping cart and order tracking
+- Razorpay payment gateway integration
+- WhatsApp inquiry feature for direct communication about products
+- Responsive design for both desktop and mobile
 
-<p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20orders%20page%20for%20normal%20user.png?raw=true" width="100%">
-</p>
+# Tech Stack
+- **Frontend**: Flutter (Dart)
+- **Backend**: Flask (Python) with PostgreSQL
+- **Payment Gateway**: Razorpay
+- **Hosting**: Vercel (Frontend), Cloud for Backend API
 
-### Orders_Page_For_Admin
-For admin user the page display the list of all users order information. The admin can change the status of product delivery status as well. A search bar is also
-provided to locate the orders with more flexibility (can search the orders by customer name, address and product name)
+# Installation
+> This project is private and not open-source at the moment.
 
-<p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20orders%20page%20for%20admin.png?raw=true" width="100%">
-</p>
+To run the frontend locally:
+1. Ensure you have Flutter installed.
+2. Clone the repository (if access is granted).
+3. Install dependencies:
+   ```sh
+   flutter pub get
+   ```
+4. Run the project:
+   ```sh
+   flutter run
+   ```
 
-### Address_Settings_Page
-Here, the user can view their addresses, the page also provides creation of new address and can edit or delete it as well.
-<p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20address%20settings%20page.png?raw=true" width="100%">
-</p>
+# Deployment
+- Deployed on **Vercel**
+- Custom CSS used for Razorpay integration
+- API hosted separately
 
-### Address_Create_Page
-Here, the user can create their new address.
-<p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20address%20create%20page.png?raw=true" width="50%">
-</p>
+# License
+This project is **not open-source** currently. For any inquiries, please contact me directly.
 
-### Address_Edit_Page
-Here, the user can edit their address.
-<p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20address%20update%20page.png?raw=true" width="50%">
-</p>
+---
 
-### Card_Settings_Page
-Here, the user can view all their card details. The Page also provides updation and deletion of Card.
-<p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20card%20settings%20page.png?raw=true" width="100%">
-</p>
+For inquiries, feel free to reach out!
 
-
-### Card_Update_Page
-Here, the user can update their card.
-<p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20card%20update%20page.png?raw=true" width="50%">
-</p>
-
-### Login_Page
-Requires an Account on the Website
-<p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20sign%20in%20page.png?raw=true" width="100%">
-</p>
-
-### Register_Page
-<p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20sign%20up%20page.png?raw=true" width="100%">
-</p>
-
-### User_Account_Page
-Here, the user can see their details like their Name, Email and Admin Priviledges.
-<p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20user%20account%20page.png?raw=true" width="100%">
-</p>
-
-### Update_User_Account_Page
-Here, the user can update their account details like username, email and can also reset their password.
-<p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20account%20update%20page.png?raw=true" width="100%">
-</p>
-
-### Delete_User_Account_Page
-Here, the user can Delete their account (requires password confirmation)
-<p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20delete%20account%20page.png?raw=true" width="100%">
-</p>
-
-### Other_Functionalities
-- Used JSON web tokens to achieve the authentication checks in the website.
-- Strict Security Checking behind the scenes during the Card Creation and Payment Process.
-- JSON Token gets checked for every single request made on the website (except products list and product details page)
-
-## Installation
-after downloading/cloning the repository code follow below steps:
-* (NOTE: your need to mention your own stripe secret api key and publishable key in django to run the project)
-
-### Backend
-* (for both linux and windows)
-1) Move in backend folder through terminal and run following commands,
-
-`python3 -m venv env` (for windows --> `python -m venv env`) 
-
-`source env/bin/activate` (for windows --> `env\scripts\activate`)
-
-`pip install -r requirements.txt` (same for both)
-
-`python manage.py runserver` (same for both)
-
-### Frontend
-* (for both linux and windows)
-2) Move in frontend folder through terminal and run follwing commands
-
-`npm i`
-
-`npm start`
-
-## All set ! Happy coding :)
-
-<p><a href="#top">Back to Top</a></p>
