@@ -12,17 +12,17 @@ Check out the live demo here: [ChitraVichar Live](https://chitravichar.vercel.ap
 # Table of Contents
 - [About ChitraVichar](#about-chitravichar)
 - [Showcase](#showcase)
-  * [HomePage](#Home Page)
+  * [HomePage](#Home_Page)
   * [Products_List_Page](#Products_List_Page)
   * [Product_Details_Page](#Product_Details_Page)
   * [Cart_Page](#Cart_Page)
   * [Order_Page](#Order_Page)
   * [Payment_Confirmation_Page](#Payment_Confirmation_Page)
   * [Payment_successfull_Page](#Payment_successfull_Page)
-  * [My_Profile](#DashBoard)
-  * [DashBoard](#DashBoard_Page)
-  * [Address_Page](#Address_Page)
-  * [MyOrders_Page](#MyOrders_Page)
+  * [My_Profile](#My_Profile)
+    * [DashBoard](#DashBoard_Page)
+    * [Address_Page](#Address_Page)
+    * [MyOrders_Page](#MyOrders_Page)
   * [Login_Page](#Login_Page)
   * [Register_Page](#Register_Page)
 - [Features](#features)
@@ -35,17 +35,19 @@ Check out the live demo here: [ChitraVichar Live](https://chitravichar.vercel.ap
 ChitraVichar is a fully API-driven e-commerce platform that enables users to browse products, manage their cart, and place orders seamlessly. The backend is built with Flask and PostgreSQL, making it a robust full-stack solution.
 
 # Showcase
-## Home Page
+
+## Home_Page
 <p align="center">
-  <img src="assets/home-pc.png" width="48%">
-  <img src="assets/home.jpg" width="48%">
+  <img src="assets/home-pc.png" width="74%">
+  <img src="assets/home.jpg" width="24%">
 </p>
 
-## Products List Page
+## Products_List_Page
 <p align="center">
   <img src="assets/products-pc.png" width="48%">
   <img src="assets/products.jpg" width="48%">
 </p>
+
 ## Products_Details_Page
 <p align="center">
   <img src="assets/ProductPage-pc.png" width="48%">
@@ -64,23 +66,26 @@ ChitraVichar is a fully API-driven e-commerce platform that enables users to bro
   <img src="assets/order-pc.png" width="48%">
 </p>
 
-## DashBoard_Page
+## My_Profile
+
+### DashBoard_Page
 <p align="center">
   <img src="assets/DashBoard-pc.png" width="48%">
   <img src="assets/Order-View.png" width="48%">
 </p>
 
-## Address_Page
+### Address_Page
 <p align="center">
   <img src="assets/Address-pc.png" width="48%">
   <img src="assets/Order-View.png" width="48%">
 </p>
 
-## MyOrders_Page
+### MyOrders_Page
 <p align="center">
   <img src="assets/MyOrders-pc.png" width="48%">
   <img src="assets/Order-View.png" width="48%">
 </p>
+
 ## Login_Page
 <p align="center">
   <img src="assets/Login-pc.png" width="48%">
