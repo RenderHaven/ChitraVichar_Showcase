@@ -3,8 +3,7 @@
 A fully-featured e-commerce website built with Flutter and Flask.
 
 <p id="top" align="center">
-  <img src="assets/home-pc.png" width="48%">
-  <img src="assets/home-mobile.png" width="48%">
+  <img src="assets/home-pc.png" width="100%">
 </p>
 
 Check out the live demo here: [ChitraVichar Live](https://chitravichar.vercel.app/)
@@ -38,58 +37,58 @@ ChitraVichar is a fully API-driven e-commerce platform that enables users to bro
 
 ## Home_Page
 <p align="center">
-  <img src="assets/home-pc.png" width="74%">
-  <img src="assets/home.jpg" width="24%">
+  <img src="assets/home-pc.png" width="80%">
+  <img src="assets/home.jpg" width="20%">
 </p>
 
 ## Products_List_Page
 <p align="center">
-  <img src="assets/products-pc.png" width="48%">
-  <img src="assets/products.jpg" width="48%">
+  <img src="assets/products-pc.png" width="80%">
+  <img src="assets/products.jpg" width="20%">
 </p>
 
 ## Products_Details_Page
 <p align="center">
-  <img src="assets/ProductPage-pc.png" width="48%">
-  <img src="assets/ProductPage.jpg" width="48%">
+  <img src="assets/ProductPage-pc.png" width="80%">
+  <img src="assets/ProductPage.jpg" width="20%">
 </p>
 
 ## Cart_Page
 <p align="center">
-  <img src="assets/cart-pc.png" width="48%">
-  <img src="assets/cart.jpg" width="48%">
+  <img src="assets/cart-pc.png" width="80%">
+  <img src="assets/cart.jpg" width="20%">
 </p>
 
 ## Order_Page
 <p align="center">
-  <img src="assets/order-pc.png" width="48%">
-  <img src="assets/order-pc.png" width="48%">
+  <img src="assets/order-pc.png" width="80%">
+  <img src="assets/order.jpg" width="20%">
 </p>
 
 ## My_Profile
 
 ### DashBoard_Page
 <p align="center">
-  <img src="assets/DashBoard-pc.png" width="48%">
-  <img src="assets/Order-View.png" width="48%">
+  <img src="assets/DashBoard-pc.png" width="80%">
+  <img src="assets/Order-View.png" width="20%">
 </p>
 
 ### Address_Page
 <p align="center">
-  <img src="assets/Address-pc.png" width="48%">
-  <img src="assets/Order-View.png" width="48%">
+  <img src="assets/Address-pc.png" width="80%">
+  <img src="assets/Order-View.png" width="20%">
 </p>
 
 ### MyOrders_Page
 <p align="center">
-  <img src="assets/MyOrders-pc.png" width="48%">
-  <img src="assets/Order-View.png" width="48%">
+  <img src="assets/MyOrders-pc.png" width="80%">
+  <img src="assets/Order-View.png" width="20%">
 </p>
 
 ## Login_Page
 <p align="center">
-  <img src="assets/Login-pc.png" width="48%">
-  <img src="assets/order.jpg" width="48%">
+  <img src="assets/Login-pc.png" width="80%">
+  <img src="assets/order.jpg" width="20%">
 </p>
 
 # Features
